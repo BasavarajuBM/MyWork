@@ -5,10 +5,11 @@ import org.springframework.stereotype.Component;
 
 import com.basu.accessright.services.impl.ArServiceImpl;
 
+//@Component
 public class AccessRightJersyConfigurer extends ResourceConfig {
 	
-/*	public AccessRightJersyConfigurer() {
+	public AccessRightJersyConfigurer() {
 		register(ArServiceImpl.class);
 	}
-*/
+
 }

@@ -15,7 +15,7 @@ import com.basu.accessright.services.ArService;
 //@Component
 //@Path("/ar")
 public class ArServiceImpl implements ArService {
-
+//
 //	@Path("/all")
 //	@GET
 //	@Produces(MediaType.APPLICATION_JSON)
