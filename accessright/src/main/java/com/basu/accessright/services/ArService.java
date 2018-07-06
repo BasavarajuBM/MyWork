@@ -1,9 +1,18 @@
 package com.basu.accessright.services;
 
-import java.util.List;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
+import com.basu.accessright.vo.ResponseVO;
+
+@Path("/ar")
 public interface ArService {
 	
-	public List<String> fetchAllAccessrights();
+	@Path("/all")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public ResponseVO fetchAllAccessrights();
 
 }
